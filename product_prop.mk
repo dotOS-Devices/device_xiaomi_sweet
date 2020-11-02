@@ -45,3 +45,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.ims.disableDebugLogs=1 \
 	persist.vendor.ims.disableIMSLogs=1 \
 	persist.vendor.ims.disableQXDMLogs=1
+
+# SurfaceFlinger brightness tweak
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.sf.force_light_brightness=1
